@@ -1,0 +1,361 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=16mm,
+ right=16mm,
+ top=16mm,
+ }
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{multicol}
+\title{\textbf{Project Report on One Day of My Life}}
+\author{Ashish Pundir \\Vikas Sharma \\ Kacper Paruch }
+\date{March 2023}
+\begin{document}
+\maketitle
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{logo put.png} 
+\end{figure}
+\centering
+
+\begin{itemize}
+\color{blue}
+\centering
+\fontsize{40}{60}\selectfont\underline{\textbf{Poznan University of Technology}}
+
+
+\end{itemize}
+\begin{itemize}
+\color{red}
+\centering
+
+\end{itemize}
+\noindent
+{\color{red} \rule{\linewidth}{0.5mm}}
+\newpage
+\textbf{\LARGE}
+\begin{multicols}{2}
+
+\begin{FlushLeft}
+\section{Goal} To expand my knowledge and skills in a particular subject by dedicating time each day to study, research, and practice.
+\begin{itemize}
+\item “which, what, who, where, when, why” analyses of my goal 
+\end{itemize}
+\subsection{Which goal?} Expanding my knowledge and skills in a particular subject.
+\subsection{What is the goal?} Dedicating time each day to study, research, and practice.
+\subsection{Who is the goal for?} Me, the person carrying out the project.
+\subsection{Where will the goal be achieved? }Anywhere that is conducive to learning, such as at home or at a library.
+\subsection{When will the goal be achieved? }Within a specific day that I have chosen to document, and ongoing until I feel I have achieved my desired level of knowledge and proficiency.
+\subsection{Why am I pursuing this goal?} To expand my understanding and mastery of a particular subject, increase my personal and intellectual growth, and achieve a sense of accomplishment and satisfaction from learning something new.
+\end{multicols}
+\begin{table}[h]
+  \centering
+  \caption{Activities and their Duration with the RE FA code by Ashish Pundir}
+  \label{tab:example}
+  \begin{tabular}{c|c|c|c|c|c}
+    \hline
+    \textbf{S.No} & \textbf{List of activities } & \textbf{From} & \textbf{To}&\textbf{Duration(in hours )} & \textbf{Code} \\ \hline
+    1 & Sleep & 22:00 & 05:30 & 7:30 & ME\\
+    2 &Get clean and refreshed  & 5:30  & 06:00 & 00:30 &MN \\
+    3 &Exercise& 06:00  & 7:30 & 1:30 & MZ\\
+    4 & Commuting  & 7:30 & 8:00 & 00:30& MN \\
+    5 & lecture & 8:00 & 15:00 & 7:00& MH\\
+    6 & Lunch   &15:00 &15:30 & 00:30 & MN \\ 
+     7 & Lab  &15:30 &18:30 & 03:00 & MH \\
+      8 & Commuting &18:30 &19:00 & 00:30 & MN \\
+       9 & Nap-time &19:00 &19:20 & 00:20 & ME \\
+        10 & Cooking &19:20 &20:00 & 00:40 & MN \\
+         11 & Socialize &20:00 &20:30 & 00:30 & MZ \\
+          12 & Dinner &20:30 &21:30 & 01:00 & MN \\
+           13 & Perambulate &21:30 &22:00& 00:30 & MZ \\
+    \hline
+    & & &&Sum = 24 hours & 
+  \end{tabular}
+\end{table}
+
+    
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MH }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+    lecture & 8:00 & 15:00 & 7:00& MH\\
+     Lab  &15:30 &18:30 & 03:00 & MH\\
+    
+    
+    \bottomrule
+    &&& SUM(MH)= 10:00
+  \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MN }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Get clean and refreshed  & 5:30  & 06:00 & 00:30 &MN\\
+Commuting  & 7:30 & 8:00 & 00:30& MN\\
+Lunch   &15:00 &15:30 & 00:30 & MN\\
+Commuting &18:30 &19:00 & 00:30 & MN\\
+Cooking &19:20 &20:00 & 00:40 & MN\\
+ Dinner &20:30 &21:30 & 01:00 & MN\\
+    
+    \bottomrule
+    &&& SUM(MN)= 3:40
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MZ }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Exercise& 06:00  & 7:30 & 1:30 & MZ\\
+Socialize &20:00 &20:30 & 00:30 & MZ \\
+ Perambulate &21:30 &22:00 & 00:30 & MZ \\
+
+    \bottomrule
+         &&&  SUM (MZ)= 2:30
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie ME}
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Sleep & 22:00 & 05:30 & 7:30 & ME\\
+Nap-time &19:00 &19:20 & 00:20 & ME \\
+      
+    \bottomrule
+    &&&SUM(ME)= 7:50
+    
+  \end{tabular}
+\end{table}
+
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\pie[text=legend]{32.63/ME, 15.27/MN, 10.49/MZ, 41.66/MH}
+\end{tikzpicture}
+\caption{Duration of Daily Activities according to RE FA code by Ashish Pundir.}
+\end{figure}
+%-----------------------vikash-------------------------------
+\begin{table}[h]
+  \centering
+  \caption{Activities and there Duration with the RE FA code by Vikas Sharma }
+  \label{tab:example}
+  \begin{tabular}{c|c|c|c|c|c}
+    \hline
+    \textbf{S.No} & \textbf{List of activities } & \textbf{From} & \textbf{To}&\textbf{Duration(in hours )} & \textbf{Code} \\ \hline
+    1 & Sleep & 23:30 & 06:00 & 6:30 & ME\\
+    2 &Get clean and refreshed  & 6:00  & 07:00 & 01:00 &MN \\
+    3 &Cooking\& Worship& 07:00  & 08:00 & 1:00 & MN\\
+    4 & Commuting  & 08:00 & 8:15 & 00:15& MN \\
+    5 & lecture & 8:15 & 16:15 & 8:00& MH\\
+    6 & Lunch   &16:15 &17:00 & 00:45 & MN \\ 
+     7 & Lab  &17:00 &18:30 & 01:30 & MH \\
+      8 & Commuting &18:30 &18:45 & 00:15 & MN \\
+       9 & Yoga &18:45 &19:45 & 01:00 & MZ \\
+        10 & Cooking &19:45 &20:15 & 00:30 & MN \\
+         11 & Study &20:15 &22:45 & 02:30 & MH \\
+          12 & Entertainment  &22:45 &23:30 & 00:45 & ME \\
+          
+    \hline
+    & & &&Sum = 24 hours & 
+  \end{tabular}
+\end{table}
+
+    
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MH }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   lecture & 8:15 & 16:15 & 8:00& MH\\
+Lab  &17:00 &18:30 & 01:30 & MH \\
+Study &20:15 &22:45 & 02:30 & MH \\
+    
+    \bottomrule
+    &&& SUM(MH)= 12:00
+  \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MN }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+ Get clean and refreshed  & 6:00  & 07:00 & 01:00 &MN \\
+Cooking\& Worship& 07:00  & 08:00 & 1:00 & MN\\
+ Commuting  & 08:00 & 8:15 & 00:15& MN \\
+Lunch   &16:15 &17:00 & 00:45 & MN \\ 
+Commuting &18:30 &18:45 & 00:15 & MN \\
+
+         Cooking &19:45 &20:15 & 00:30 & MN \\
+    
+    \bottomrule
+    &&& SUM(MN)= 3:45
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MZ }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+           Yoga &18:45 &19:45 & 01:00 & MZ \\
+
+    \bottomrule
+         &&&  SUM (MZ)= 01:00
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie ME}
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Sleep & 23:30 & 06:00 & 6:30 & ME\\
+Entertainment  &22:45 &23:30 & 00:45 & ME \\
+    \bottomrule
+    &&&SUM(ME)= 7:15
+    
+  \end{tabular}
+\end{table}
+
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\pie[text=legend]{30.20/ME, 15.6/MN, 4.16/MZ, 50/MH}
+\end{tikzpicture}
+\caption{Duration of Daily Activities according to REFA code by Vikas sharma.}
+\end{figure}
+%-----------------------kasbar--------------------------
+\begin{table}[h]
+  \centering
+  \caption{Activities and there Duration with the REFA code by Kacper Paruch}
+  \label{tab:example}
+  \begin{tabular}{c|c|c|c|c|c}
+    \hline
+    \textbf{S.No} & \textbf{List of activities } & \textbf{From} & \textbf{To}&\textbf{Duration(in hours )} & \textbf{Code} \\ \hline
+    1 & Sleep & 22:00 & 05:30 & 7:30 & ME\\
+    2 &Get clean and refreshed  & 5:30  & 06:00 & 00:30 &MN \\
+    3 &Exercise& 06:00  & 7:30 & 1:30 & MZ\\
+    4 & Commuting  & 7:30 & 8:00 & 00:30& MN \\
+    5 & lecture & 8:00 & 15:00 & 7:00& MH\\
+    6 & Lunch   &15:00 &15:30 & 00:30 & MN \\ 
+     7 & Lab  &15:30 &18:30 & 03:00 & MH \\
+      8 & Commuting &18:30 &19:00 & 00:30 & MN \\
+       9 & Nap-time &19:00 &19:20 & 00:20 & ME \\
+        10 & Cooking &19:20 &20:00 & 00:40 & MN \\
+         11 & Socialize &20:00 &20:30 & 00:30 & MZ \\
+          12 & Dinner &20:30 &21:30 & 01:00 & MN \\
+           13 & Perambulate &21:30 &22:00& 00:30 & MZ \\
+    \hline
+    & & &&Sum = 24 hours & 
+  \end{tabular}
+\end{table}
+
+    
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MH }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+    lecture & 8:00 & 15:00 & 7:00& MH\\
+     Lab  &15:30 &18:30 & 03:00 & MH\\
+    
+    
+    \bottomrule
+    &&& SUM(MH)= 10:00
+  \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MN }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Get clean and refreshed  & 5:30  & 06:00 & 00:30 &MN\\
+Commuting  & 7:30 & 8:00 & 00:30& MN\\
+Lunch   &15:00 &15:30 & 00:30 & MN\\
+Commuting &18:30 &19:00 & 00:30 & MN\\
+Cooking &19:20 &20:00 & 00:40 & MN\\
+ Dinner &20:30 &21:30 & 01:00 & MN\\
+    
+    \bottomrule
+    &&& SUM(MN)= 3:40
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie MZ }
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Exercise& 06:00  & 7:30 & 1:30 & MZ\\
+Socialize &20:00 &20:30 & 00:30 & MZ \\
+ Perambulate &21:30 &22:00 & 00:30 & MZ \\
+
+    \bottomrule
+         &&&  SUM (MZ)= 2:30
+  \end{tabular}
+\end{table}
+\begin{table}[h!]
+  \centering
+  \caption{Daily Activitie ME}
+  \begin{tabular}{@{}llll@{}}
+    \toprule
+    \textbf{Activity} & \textbf{From} & \textbf{To} & \textbf{Duration (hours)} \\ \midrule
+   Sleep & 22:00 & 05:30 & 7:30 & ME\\
+Nap-time &19:00 &19:20 & 00:20 & ME \\
+      
+    \bottomrule
+    &&&SUM(ME)= 7:50
+    
+  \end{tabular}
+\end{table}
+
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\pie[text=legend]{32.63/ME, 15.27/MN, 10.49/MZ, 41.66/MH}
+\end{tikzpicture}
+\caption{Duration of Daily Activities according to REFA code  by Kacper Paruch.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Screenshot 2023-03-11 at 23.47.09.png} 
+\end{figure}
+\centering
+
+
+
+
+\end{itemize}
+\end{FlushLeft}
+\end{document}
